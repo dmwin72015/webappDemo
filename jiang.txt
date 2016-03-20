@@ -6,6 +6,10 @@ aaa啊啊啊
 
 bbbBBBB
 >>>>>>> 3c0555bc54dd0c21ebb87e63a998580ab2e90b70
+<<<<<<< HEAD
+麦当劳！！！
+=======
 
 -----------------------------------------
 cccccccccccccccccccccccccccccccccccc
+>>>>>>> ceddaab8b3f632637340b3bfd5d578a3d3573cca
