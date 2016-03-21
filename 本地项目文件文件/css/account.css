@@ -1,0 +1,95 @@
+@charset "utf-8";
+/*我的账户 part*/
+.accout_warp{ background:#fff; padding:20px 30px;}
+.accout_input{ width:130px; height:30px; background:#d70d0d; font-size:14px; color:#fff; margin-left:20px;}
+.accout_1 dl{ width:290px; height:120px; float:left; border:1px solid #ddd; margin-right:22px;}
+.accout_1 dl:last-child{ margin-right:0;}
+.accout_1 dt{ display:block; padding:25px 15px 0; font-size:16px;}
+.accout_1 dt i img{ padding:0 5px; vertical-align:sub;}
+.accout_1 .accout_sb{ position:relative; cursor:pointer;}
+.zhky{ width:190px; height:auto; float:left; padding:5px; position:absolute; left:-50px; top:10px; background:#ffffcc; border:1px solid #ff9837; font-size:12px; z-index:1000; display:none;}
+.accout_1 .accout_sb:hover .zhky{ display:block;}
+.accout_1 dd{ display:block; overflow:hidden; padding:15px 0 0 15px; text-align:center;}
+.accout_1 dt b{ font-size:18px; color:#d70d0d;}
+.accout_input_1{ width:80px; height:30px; margin:0 30px 0 10px; background:#d70d0d; color:#fff; font-size:14px; cursor:pointer;}
+.accout_input_2{ width:100px; height:30px; background:#d70d0d; color:#fff; font-size:14px; cursor:pointer;}
+.accout_input_gery{ background:#ccc;}
+.accout_2{ height:40px; border-bottom:2px solid #d70d0d;}
+.accout_2 ul li{ width:120px; float:left; text-align:center; font-size:16px; color:#999; line-height:40px; font-family:"微软雅黑";}
+.accout_2 ul li a{ color:#999;}
+.accout_2 ul li i{ float:right; font-family:"宋体"; color:#666;}
+.accout_2 ul li.sort_on{ background:url(../images/bdsj.jpg) no-repeat center bottom; color:#cb3749;}
+.accout_3 ol{ display:block; height:38px; background:#f8f9fb; border:1px solid #e4e4e4;}
+.accout_3 ol li{ float:left; text-align:center; line-height:38px; font-weight:bold; font-family:"微软雅黑"; font-size:14px;}
+.accout_3 ul{ display:block; overflow:hidden; border-bottom:1px solid #ccc;}
+.accout_3 ul li{ float:left; text-align:center; line-height:38px;}
+.accout_3 li.jl_01{ width:175px;}
+.accout_3 li.jl_02{ width:260px;}
+.accout_3 li.jl_03{ width:240px;}
+.accout_3 li.jl_04{ width:240px;}
+.accout_3 ul li.jl_04{ font-size:16px; font-family:"微软雅黑";}
+.jl_color{ color:#f00; font-size:16px; font-family:"微软雅黑";}
+.jl_color_1{ color:#6c9; font-size:16px; font-family:"微软雅黑";}
+.jl_color_2{ color:#858C88; font-size:16px; font-family:"微软雅黑";}
+.pager{ text-align:right;}
+.pager a{ color:#333; padding:0 3px;}
+.hdys{ width:25px; height:15px; border:1px solid #ccc;}
+.hd_but{ width:52px; height:21px; background:#cd2a2c; color:#fff;}
+/*充值 part*/
+.accout_cz{ border-bottom:1px solid #e6e6e6; padding-bottom:30px;}
+.accout_cz h2{ display:block; font:bold 20px/30px "微软雅黑";}
+.accout_cz p{ display:block; margin-top:40px; font-size:14px;}
+.accout_cz b{ display:block; margin-left:105px; font-size:16px; line-height:30px;}
+.cz_input{ width:180px; height:30px; border:1px solid #d4d4d4; padding:0 10px; line-height:30px; font-size:14px;}
+.checkout_b{ padding:0 0 30px 100px; border-bottom:1px solid #e6e6e6;}
+.checkout_b ul{ display:block; overflow:hidden; border-left:1px solid #f3f3f3;}
+.checkout_b ul li{ float:left; width:130px; height:40px; text-align:center; line-height:40px; font-size:14px; border:1px solid #f3f3f3; border-left:none; cursor:pointer;}
+.checkout_b ul li.sort_on{ background:#f6f6f6;}
+.pay p{ clear:both; font-size:14px; color:#333}
+.pay ol{ display:block; overflow:hidden;}
+.pay ol li{ float:left; margin-top:20px; margin-right:10px}
+.pay ol li input{vertical-align:middle}
+.pay ol li img{ vertical-align:middle}
+.checkout_c{float:right; margin-top:20px; font-size:14px;}
+.checkout_c input{ width:120px; height:30px; background:#d60d0d; border:none; font-size:14px; color:#fff; cursor:pointer;}
+.checkout_c b{ font-size:24px; color:#d60d0d}
+.accout_cztc{ width:466px; height:248px; float:left; background:#fff; position:fixed; left:50%; top:50%; margin:-124px 0 0 -233px; border-radius: 6px; box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3); z-index:1000; display:none;}
+.accout_cztc h2{ display:block; height:45px; border-bottom:1px solid #eee;}
+.close{ width:16px; height:16px; float:right; background:url(../images/gb.png) no-repeat; margin:15px 15px 0 0;}
+.accout_cztc_1{ background:url(../images/cz_16.png) no-repeat 43px 18px; padding-left:125px;}
+.accout_cztc_1 b{ display:block; font-size:16px; padding:15px 0 5px;}
+.accout_cztc_1 p{ display:block; font-size:14px;}
+.cz_but{ width:119px; height:34px; background:url(../images/cz_but.png) no-repeat; border:0; color:#fff; font-size:18px; font-family:"微软雅黑"; margin:10px 10px 20px 0;}
+.black_overlay{ display: none; position: absolute; top: 0%; width: 100%; height: 170%; z-index:998; -moz-opacity: 0.6; opacity:.60; filter: alpha(opacity=60); background-color: black; margin: 0 auto; left:0; }
+.accout_czcg{ padding-bottom:10px;}
+.accout_czcg_1{ min-height:230px; height:100%; _height:230px; margin:55px 0 0 287px; background:url(../images/jncg_img.png) no-repeat left 3px; padding-left:65px;}
+.accout_czsb{ background:url(../images/czsb.png) no-repeat left 3px;}
+.accout_czcg_1 b{ display:block; font:bold 20px/30px "微软雅黑";}
+.accout_czcg_1 p{ display:block; font-size:14px; margin-top:5px;}
+.accout_czcg_1 p a{ color:#09c; text-decoration:underline;}
+/*缴纳保证金 part*/
+.accout_bzj dt{ width:100px; float:left; font-size:14px;}
+.accout_bzj dd{ width:600px; float:left;}
+.accout_bzj dd p{ display:block; overflow:hidden; font-size:14px; margin-bottom:10px;}
+.accout_bzj dd i{ padding-left:30px;}
+.accout_bzj dd input{ vertical-align:top;}
+/*解冻保证金 part*/
+.bond{ min-height:300px; height:100%; _height:300px;}
+.bond dl{ display:block; overflow:hidden; margin-top:20px;}
+.bond dt{ width:200px; float:left; text-align:right; font-size:14px; line-height:30px;}
+.bond dd{ width:500px; float:left; line-height:30px; font-size:14px; color:#7b7a7a;}
+.bond dd b{ color:#d60d0d; font:bold 20px/30px "微软雅黑"; padding-right:30px;}
+/*提现申请 part*/
+.withdrawals{ border-bottom:1px solid #e6e6e6; padding-bottom:30px;}
+.withdrawals h3{ display:block; font:bold 18px/36px "微软雅黑"; background:url(../images/jnbzj_img.png) no-repeat 44px center; padding-left:95px;}
+.withdrawals dl{ display:block; overflow:hidden; line-height:28px; font-size:14px; margin-top:15px;}
+.withdrawals dt{  width:195px; float:left; text-align:right;}
+.withdrawals_1 b{ width:160px; float:left; text-align:right; font-weight:normal; font-size:14px; line-height:26px;}
+.withdrawals_1 p{ float:left; font-size:14px; line-height:26px; padding-bottom:30px;}
+.tx_select{ width:300px; height:30px; border:1px solid #d4d4d4; line-height:30px; font-size:14px;}
+.tx_select_1{ width:240px; height:30px; border:1px solid #d4d4d4; line-height:30px; font-size:14px;}
+.cz_input_1{ width:80px; height:30px; border:1px solid #d4d4d4; padding:0 10px; line-height:30px; font-size:14px;}
+.cz_input_2{ width:220px; height:30px; border:1px solid #d4d4d4; padding:0 10px; line-height:30px; font-size:14px;}
+.tx_but{ width:128px; height:30px; border:1px solid #ccc; background:#f4f4f4; margin-left:10px; color:#999; font-size:14px; cursor:pointer;}
+/*输入错误提示*/
+.error_tips{ color: #cf201c; font-weight: bold;}

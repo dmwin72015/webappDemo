@@ -1,0 +1,124 @@
+@charset "utf-8";
+.content_dm{
+	margin-left:20px;
+	margin-right:20px;
+	font-size:14px;
+}
+.content_title{
+	font-size: 18px;
+	font-weight: bold;
+	height: 34px;
+	line-height: 34px;
+	border-bottom: 1px solid #ccc;
+}
+.content_dm>label{
+	
+}
+.templt_name{
+	margin-top: 10px;
+}
+#templt_name{
+	width:400px;
+	height: 30px;
+	border:1px solid #333;
+	padding:0 3px;
+}
+.address_list{
+	margin-top: 10px;
+}
+.address_list>h5{
+	font-size: 14px;
+}
+.address_list>h5>em{
+	color:#cacaca;
+}
+.address_list ul{
+	margin-top: 10px;
+	overflow: hidden;
+}
+.address_list  li{
+	width: 195px;
+	height: 38px;
+}
+.address_list label{
+	font-size: 14px;
+	padding:3px 5px;
+	font-size: 16px;
+	line-height: 32px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.address_list .disN{
+	display: none;
+}
+.address_list li{
+	float: left;
+}
+.address_list {
+	padding-left: 0;
+}
+.price_value input{
+	border: 1px solid #ccc;
+	width: 76px;
+	padding:3px 2px;
+}
+li.add_item{
+	height: 24px;
+	padding:7px 0;
+}
+.address_add{
+	display:inline-block;
+	width: 24px;
+	height: 24px;
+	background: url(../images/add.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+.btn{
+	margin-top: 10px;
+}
+.commit_btn{
+	width: 90px;
+	height: 40px;
+	background: url(../images/btn_bg.png) 0 0 no-repeat;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+}
+.no_postage{
+	margin-top: 20px;
+}
+.postage_table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.postage_table td{
+	border:1px solid #ccc;
+	text-align: center;
+	padding: 8px; 0
+	overflow: hidden;
+}
+.table_title span{
+	display: inline-block;
+}
+.edit_time,.edit_btn,.delete_btn{
+	float: right;
+	margin-left: 20px;
+	font-size: 14px;
+}
+.edit_time{
+	color: #c0c0c0;
+	font-weight:normal;
+}
+
+.edit_btn{
+	border-right:1px solid #333;
+	padding-right: 20px;
+}
+.table_title td{
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+.table_head{
+	background: #f3f3f3;
+}

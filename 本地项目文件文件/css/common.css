@@ -1,0 +1,244 @@
+/* common 层-组件级，模块化，重用 */
+/* 
+	common 层是网站级的，
+	不同的网站有不同的 common 层，
+	同一个网站只有一个 common 层，
+	可以放在一个文件里，
+	也可按功能划分放在多个文件里。
+	在团队合作中，common 层最好由一个人负责，统一管理。 
+*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {display: inline-block;}
+.fl{ float: left;}
+.fr{ float: right;}
+.tc{ text-align: center;}
+.pb174{ padding-bottom: 174px;}
+
+.w50{ width: 50px;}
+.w158{ width: 158px;}
+.w391{ width: 391px;}
+.w93{ width: 93px;}
+.w343{ width: 343px;}
+.w115{ width: 115px;}
+.w150{ width: 150px;}
+/* table */
+.w246{ width: 246px;}
+.w302{ width: 302px;}
+.w512{ width: 512px;}
+.w90{ width: 90px;}
+
+.f14{ font-size: 14px;}
+.f18{ font-size: 18px;}
+.f30{ font-size: 30px;}
+
+.ml-200{ margin-left: -200px;}
+.mt-6{ margin-top: -6px;}
+.pl16{ padding-left: 16px;}
+.pl40{ padding-left: 40px;}
+
+.txtd{ text-decoration: underline;}
+#bor-n{ border: none;}
+.txt-rt{ text-align: right;}
+.dis-table{ display: table;}
+.vert-mid{
+	display: table-cell;
+	vertical-align: middle;
+}
+.col-red{ color: #c11920;}
+.col-gre{ color: #22ac38;}
+/* 问号 */
+b.ico-ask{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-left: 3px;
+	background: url(../img/check.png) 0 -37px no-repeat;
+	cursor: pointer;
+}
+/* 猫 */
+#ico-cat{
+	display: inline-block;
+	width: 26px;
+	height: 19px;
+	margin-left: 3px;
+	background: url(../img/ico-logo.png) no-repeat;
+	background-size: 26px 19px;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}/* End hide from IE-mac */
+
+/*index——>header*/
+.wrap{
+	min-width: 1190px;
+}
+.header .header-tp{
+	width: 1190px;
+	height: 55px;
+	margin: 0 auto;
+	padding: 32px 0 38px 0;
+}
+.header .header-tp .head-log{
+	float: left;
+	width: 245px;
+	height: 55px;
+	overflow: hidden;
+}
+.header .header-tp .logo-bg{
+	width: 100%;
+	height: 55px;
+	display: block;
+	background: url(../img/logo.png) no-repeat;
+}
+.header .header-tp .login-cont{
+	float: right;
+}
+.header .header-tp .login-cont .login{
+	display: table;
+	padding-top: 7px;
+}
+.header .header-tp .login-cont .ico-logo{
+	display: table-cell;
+	vertical-align: middle;
+	width: 47px;
+	height: 35px;
+	margin-top: -6px;
+	display: inline-block;
+	background: url(../img/ico-logo.png) no-repeat;
+}
+.header .header-tp .login-cont .login-hd{
+	display: inline-block;
+	padding-left: 9px;
+	padding-right: 18px;
+	font-size: 16px;
+	color: #c11920;
+	border-right: 1px solid #e5e5e5;
+}
+.header .header-tp .login-cont .no-login-hd{
+	display: inline-block;
+	padding-left: 9px;
+	padding-right: 18px;
+	font-size: 16px;
+	color: #333;
+	border-right: 1px solid #e5e5e5;
+}
+.header .header-tp .login-cont .no-login-hd i{
+	font-weight: bold;
+}
+.header .header-tp .login-cont a.login-reg{
+	display: inline-block;
+	padding-left: 18px;
+	font-size: 16px;
+	color: #40454c;
+}
+.header .header-nav{
+	background-color: #f5f5f5;
+}
+.header .header-nav .nav-list{
+	width: 1190px;
+	height: 18px;
+	margin: 0 auto;
+	padding: 17px 0 15px 0;
+}
+.header .header-nav ins{
+	font-size: 0;
+	float: left;
+	height: 18px;
+	width: 0;
+	border-left: 1px solid #d8d8d8;
+	vertical-align: top;
+}
+.header .header-nav a{
+	float: left;
+	padding: 0 25px;
+	font-weight: 500;
+	font-size: 16px;
+	color: #40454c;
+	letter-spacing: normal;
+	word-spacing: normal;
+	vertical-align: top;
+}
+.header .header-nav a.chose,
+.header .header-nav a:hover{
+	color: #c11920;
+}
+/*页面底部*/
+.footer .call-phnoe{
+	width: 1190px;
+	height: 27px;
+	margin: 0 auto;
+	padding: 20px 0;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+}
+.footer .bbn{ border-bottom: none;}
+.footer .call-phnoe .talk{
+	float: left;
+	padding-right: 26px;
+	line-height: 27px;
+	font-size: 14px;
+	color: #40454c;
+}
+.footer .call-phnoe .talk dt,.footer .call-phnoe .talk dd{
+	float: left;
+}
+.footer .call-phnoe .talk a{
+	float: left;
+	padding-right: 12px;
+	font-size: 14px;
+	color: #40454c;
+}
+.footer .call-phnoe .talk a i{
+	float: left;
+	margin-right: 6px;
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	background: url(../img/icon.png) no-repeat;
+	background-size: 27px;
+}
+.footer .call-phnoe .talk .ico-ww{
+	background-position: 0 0;
+}
+.footer .call-phnoe .talk .ico-qq{
+	background-position: 0 -64px;
+}
+.footer .call-phnoe .talk .no-ico-ww{
+	background-position: 0 -32px;
+}
+.footer .call-phnoe .talk .no-ico-qq{
+	background-position: 0 -96px;
+}
+.footer .call-phnoe .talk dd .tel{
+	font-size: 25px;
+	color: #40454c;
+}
+.footer .links{
+	width: 100%;
+	padding-bottom: 35px;
+	text-align: center;
+	background-color: transparent;
+}
+.footer .links .links-a{
+	line-height: 14px;
+	padding: 25px 0;
+	font-size: 14px;
+	color: #CECECE;
+}
+.footer .links a{
+	display: inline-block;
+	padding: 0 23px;
+	font-size: 13px;
+	color: #707070;
+}
+.footer .links p{
+	line-height: 18px;
+	font-size: 12px;
+	color: #959595;
+}

@@ -1,0 +1,82 @@
+@charset "utf-8";
+/*活动管理 part*/
+.activity{ background:#fff; padding:20px;}
+.activity_1 h2{ display:block; color:#333; font-family:"微软雅黑"; font-size:20px; font-weight:bold; line-height:28px;}
+.activity_1 ul{ display:block; padding-top:20px;}
+.activity_1 ul li{ width:87px; height:35px; float:left; padding-top:1px; margin-right:15px; background:#f0f0f0; text-align:center; line-height:18px;}
+.activity_1 ul li.cutter{ background:#cd2a2c;}
+.activity_1 ul li.cutter a{ color:#fff;}
+.activity_huodong{ margin:20px auto 0; border:1px solid #ddd; border-bottom:none; border-right:none;}
+.activity_huodong ol{ display:block; height:37px; background:#f9f9f9; border-bottom:1px solid #ebebeb;}
+.activity_huodong ol li{ height:37px; float:left; list-style:none; line-height:37px; border-right:1px solid #ddd; font-size:14px; color:#333; text-align:center;}
+.activity_huodong li.m_1{ width:44px;}
+.activity_huodong li.m_2{ width:89px;}
+.activity_huodong li.m_3{ width:280px;}
+.activity_huodong li.m_4{ width:85px;}
+.activity_huodong li.m_5{ width:304px;}
+.activity_huodong li.m_6{ width:130px;}
+.activity_huodong ul{ display:block; height:100px; border-bottom:1px solid #ebebeb;}
+.activity_huodong ul li{ float:left; line-height:20px; list-style:none; border-right:1px solid #ebebeb; color:#333; text-align:center; position:relative;}
+.activity_huodong ul li strong{ font-size:16px; font-weight:normal; line-height:100px;}
+.activity_huodong ul li b{ font-size:14px; line-height:100px;}
+.activity_huodong ul li i{ font-size:14px; line-height:100px; font-weight:normal;}
+.activity_img{ width:255px; float:left; margin:6px 0 0 12px;}
+.activity_img img{ float:left; _width: 130px; max-width:130px; height: 85px;}
+.activity_img p{ width:115px; float:right; text-align:left; line-height:18px;}
+.hd_text{ width:298px;height:100px; display:table-cell; vertical-align:middle; text-align:center;}
+.hd_cz{ width:298px; height:100px; display:table-cell; vertical-align:middle;}
+.hd_cz a{ display:block; text-align:center; color:#0068bf; margin:5px 0;}
+.hd_cz em{ background:#3399ff; color:#fff; padding:7px 15px; border-radius:5px;}
+.pager{ text-align:right;}
+.pager a{ color:#333; padding:0 3px;}
+.hdys{ width:25px; height:15px; border:1px solid #ccc;}
+.hd_but{ width:52px; height:21px; background:#cd2a2c; color:#fff;}
+/*.activity_huodong i.aa{ position:absolute; cursor:pointer; right:0; bottom:0; margin:0 45px 3px 0; line-height:18px; z-index:1000;}*/
+.zhky{ width:300px; height:auto; float:left; padding:5px; position:absolute; background:#ffffcc; border:1px solid #ff9837; line-height:20px; font-size:12px; z-index:1000; display:none;}
+/*.activity_huodong i.aa:hover .zhky{ display:block;}*/
+/*活动详情 part*/
+.activity_details{ background:#fff; padding:20px 41px;}
+.details_left{ width:220px;}
+.details_left img{ display:block; overflow:hidden;}
+.details_left h3{ display:block; font-weight:normal; margin-top:5px;}
+.block1{ float:left; color:#cd2a2c; font:bold 30px/36px Arial; margin:5px 10px 0 0;}
+.block1 span{ display:inline-block; font-family:"Microsoft Yahei",Arial; font-size:22px; font-weight:normal; margin-right:-5px;}
+.block2,.block3{ position:relative; display:block; height:24px; font-family:Arial;}
+.block2 i{ text-decoration:line-through; padding-right:5px;}
+.block2 em{ color:#e3393a; padding-left:5px;}
+.block2 span{ height:20px; float:right; padding-left:20px; font-size:13px;}
+.tianm{ background:url(../images/tianm.png) no-repeat left 2px;}
+.taob{ background:url(../images/tianm.png) no-repeat left -16px;}
+.block2 img{ padding-right:5px;}
+.block3 span { background:url(../images/list_sell_icon.png) no-repeat;cursor: default;display: inline-block; margin-right:5px;}
+.block3 span.send{ background-position:-56px 0; width:28px; height:16px;}
+.block3 span.change_price{background-position:0 0; width:52px; height:16px;}
+.details_right{ width:650px;}
+.details_right h2{ display:block; font:24px/24px "Microsoft Yahei"; margin-top:10px;}
+.details_right strong{ color:#cd2a2c; font:normal 16px/24px "宋体"; padding-left:20px;}
+.details_right h3{ display:block; color:#cd2a2c; font:bold 16px/24px "Microsoft Yahei"; margin-top:10px;}
+.details_right dl{ display:block; overflow:hidden; margin-top:10px;}
+.details_right dt{ width:100px; float:left; font-size:14px;}
+.details_right dd{ width:550px; float:left;}
+.details_right dd input{ vertical-align:top;}
+.details_right i{ font-size:14px; line-height:30px;}
+.details_right em{ margin-right:20px;}
+.details_right b{ color:#cd2a2c; font:bold 18px/26px "Microsoft Yahei"; padding-right:10px;}
+.details_right .color_grey{ color:#ccc;}
+.details_list{ border:1px solid #333; border-bottom:none; border-right:none;}
+.details_list ul li{ width:298px; float:left; border:1px solid #333; border-top:none; border-left:none; line-height:30px; font-size:14px; text-align:center;}
+.hd_but_1{ width:100px; height:30px; margin:20px 10px; background:#cd2a2c; color:#fff; font-size:14px; cursor:pointer;}
+.hd_but_grey{ background:#e5e5e5; color:#666;}
+.details_but{ text-align:center;}
+/*活动管理弹出层 part*/
+.details_xg h2{ display:block; height:44px; border-bottom:1px solid #eee; text-align:center; line-height:44px; font-size:16px; color:#d60d0d; margin-bottom:20px;}
+.black_overlay{ display: none; position: absolute; top: 0%; width: 100%; height: 220%; z-index:998; -moz-opacity: 0.6; opacity:.60; filter: alpha(opacity=60); background-color: black; margin: 0 auto; left:0;}
+.sjly_input{ width:345px; height:95px; border:1px solid #ccc; resize:none;}
+.sjly_input_1{ width:180px; height:24px; border:1px solid #ccc; line-height:24px; margin-right:10px;}
+.details_xg{ width:350px; min-height:230px;  background:#fff; position:fixed; left:50%; top:50%; margin:-125px 0 0 -175px; border-radius: 6px; box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3); z-index:1000; display:none;}
+.details_xg p{ width:300px; float:left; padding:0 25px;}
+.close{ width:16px; height:16px; float:right; background:url(../images/gb.png) no-repeat; margin:15px 15px 0 0;}
+.details_xg span{ display:block; line-height:24px; padding:0 20px;}
+.details_xg span i{ color:#ccc;}
+
+.activity_huodong .help_icon{display: inline-block;background: url("../images/hd_01.png") no-repeat;width: 15px;height: 15px;margin-bottom: -3px;}

@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<META HTTP-EQUIV="expires" CONTENT="0"> 
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"> 
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache"> 
+<META HTTP-EQUIV="Expires" CONTENT="0"> 
+<MATA HTTP-EQUIV="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>特卖管理-运费模板添加</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/common.css" rel="stylesheet" type="text/css">
+<link href="css/page.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/management.css" rel="stylesheet" type="text/css">
+<link href="css/index.css" rel="stylesheet" type="text/css">
+<link href="css/templetAdd.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/easydialog.min.js"></script>
+
+<style>
+.kflist ul{
+	margin-left:100px; overflow:hidden;
+	}
+.kflist ul li {
+    width: 33%;
+}
+.pointer{
+	cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+<!--头部 start-->
+<?php Hg_Tpl::tpl_include('header'); ?>
+<!--头部 end-->
+<!--主体内容 start-->
+<div class="warp" style="width:1190px;">
+<div class="mod mt10">
+ <!--左侧导航 start-->
+ <?php Hg_Tpl::tpl_include('temai/left_nav_temai'); ?>
+ <!--左侧导航 end-->
+ <div class="managementSell_right goods_list fr" style="width:1013px;padding-bottom: 20px;">
+ 		<p class="breadcrumb_nav">特卖管理>运费管理>运费模板添加</p>
+ 		<div class="content_dm">
+ 			<h3 class="content_title">新增运费模板</h3>
+ 			<div class="templt_name">
+ 				<label>
+ 					模板名称：<input type="text" id="templt_name">
+ 				</label>
+ 			</div>
+ 			<div class="address_list">
+ 				<h5>选择不包邮地区及设置运费：<em>最多设置6个不包邮地区</em></h5>
+ 				<ul>
+ 					<li>
+ 						<label class="city_name"><input type="checkbox"> 新疆</label>
+ 						<label class="price_value disN"><input type="text"> 元</label>
+ 					</li>
+ 					<li>
+ 						<label class="city_name"><input type="checkbox"> 新疆</label>
+ 						<label class="price_value disN" ><input type="text"> 元</label>
+ 					</li>
+ 					<li>
+ 						<label class="city_name"><input type="checkbox"> 新疆</label>
+ 						<label class="price_value disN"><input type="text"> 元</label>
+ 					</li>
+ 					<li>
+ 						<label class="city_name"><input type="checkbox"> 新疆</label>
+ 						<label class="price_value disN"><input type="text"> 元</label>
+ 					</li>
+ 					<li>
+ 						<label class="city_name"><input type="checkbox"> 新疆</label>
+ 						<label class="price_value disN"><input type="text"> 元</label>
+ 					</li>
+ 					<li class="add_item">
+ 						<span class="address_add"></span>
+ 					</li>
+ 				</ul>
+ 			</div>
+ 			<div class="btn">
+ 				<input type="button" class="commit_btn" value="提交"></input>
+ 			</div>
+ 			<div class="no_postage">
+ 				<table class="postage_table">
+ 					<tbody>
+ 						<tr class="table_title">
+ 							<td colspan="4">
+ 								<span class="title_name">不包邮地区1</span>
+ 								<span class="delete_btn"><a href="javascript:;">删除</a></span>
+ 								<span class="edit_btn"><a href="javascript:;">修改</a></span>
+ 								<span class="edit_time">最后编辑时间：2016-03-12 12:23:34</span>
+ 							</td>
+ 						</tr>
+ 						<tr class="table_head">
+ 							<td>不包邮地区</td>
+ 							<td>运费（元）</td>
+ 							<td>不包邮地区</td>
+ 							<td>运险（元）</td>
+ 						</tr>
+ 						<tr>
+ 							<td>厦门</td>
+ 							<td>10.00</td>
+ 							<td>厦门</td>
+ 							<td>10.00</td>
+ 						</tr>
+ 						<tr>
+ 							<td>厦门</td>
+ 							<td>10.00</td>
+ 							<td>厦门</td>
+ 							<td>10.00</td>
+ 						</tr>
+ 					</tbody>
+ 				</table>
+ 			</div>
+ 			<div class="no_postage">
+ 				<table class="postage_table">
+ 					<tbody>
+ 						<tr class="table_title">
+ 							<td colspan="4">
+ 								<span class="title_name">不包邮地区1</span>
+ 								<span class="delete_btn"><a href="javascript:;">删除</a></span>
+ 								<span class="edit_btn"><a href="javascript:;">修改</a></span>
+ 								<span class="edit_time">最后编辑时间：2016-03-12 12:23:34</span>
+ 							</td>
+ 						</tr>
+ 						<tr class="table_head">
+ 							<td>不包邮地区</td>
+ 							<td>运费（元）</td>
+ 							<td>不包邮地区</td>
+ 							<td>运险（元）</td>
+ 						</tr>
+ 						<tr>
+ 							<td>厦门</td>
+ 							<td>10.00</td>
+ 							<td>厦门</td>
+ 							<td>10.00</td>
+ 						</tr>
+ 						<tr>
+ 							<td>厦门</td>
+ 							<td>10.00</td>
+ 							<td>厦门</td>
+ 							<td>10.00</td>
+ 						</tr>
+ 					</tbody>
+ 				</table>
+ 			</div>
+ 		</div>
+ </div>
+</div>
+</div>
+<!--主体内容 end-->
+<!--底部 start-->
+<div class="footer">
+    <?php Hg_Tpl::tpl_include('kflist'); ?>
+    <?php Hg_Tpl::tpl_include('footer'); ?>
+</div>
+<?php Hg_Tpl::tpl_include('script'); ?>
+<!--底部 end-->
+
+
+</body>
+<script type="text/javascript">
+	$(function(){
+		$('.city_name').click(function(){
+			var oInput = $(this).find('input:checkbox').get(0);
+			if(oInput.checked == true){
+				$(this).next().show().css('display','inline-block');
+			}else{
+				$(this).next().hide();
+			}
+		});
+		$('.address_add').on('click',function(){
+			alert(1)
+
+		});
+	})
+</script>
+
+</html>
