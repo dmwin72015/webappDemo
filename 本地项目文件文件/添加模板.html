@@ -73,6 +73,17 @@
  						<label class="city_name"><input type="checkbox"> 新疆</label>
  						<label class="price_value disN"><input type="text"> 元</label>
  					</li>
+ 					<!-- <li>
+ 						<label class="city_name">
+ 							<select>
+ 								<option>北京</option>
+ 								<option>北京</option>
+ 								<option>北京</option>
+ 								<option>北京</option>
+ 							</select>
+ 						</label>
+ 						<label class="price_value"><input type="text"> 元</label>
+ 					</li> -->
  					<li class="add_item">
  						<span class="address_add"></span>
  					</li>
@@ -171,7 +182,8 @@
 			}
 		});
 		$('.address_add').on('click',function(){
-			alert(1)
+			var str = '<li><label class="city_name"><select><option>北京</option><option>北京</option><option>北京</option><option>北京</option></select></label><label class="price_value"><input type="text"> 元</label></li>';
+			$(str).insertBefore($(this).parent());
 
 		});
 	})

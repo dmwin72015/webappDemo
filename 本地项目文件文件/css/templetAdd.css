@@ -57,6 +57,9 @@
 .address_list {
 	padding-left: 0;
 }
+.city_name select{
+	
+}
 .price_value input{
 	border: 1px solid #ccc;
 	width: 76px;
