@@ -52,28 +52,35 @@
 /*注册页面*/
 .content.reg{padding-top: 36px;}
 .reg_box{border:1px solid #d9dadc ;}
-.reg_steps{}
-.steps_list>li{
-	float: left;
-	width: 20%;
+.reg_steps{border-bottom: 1px solid #d9dadc}
+.steps_list>li{ float: left; width: 20%; }
+.steps_list>li>h4{ line-height: 44px; font-weight: normal; text-align: center; color: #747474; }
+.step_item{ background:transparent url(../images/step.png) 0 0 no-repeat; }
+.step_item.current h4{ background-color: #44b549; background-image:none; color: #fff; }
+.step_item.next{ background-position:0 -88px; }
+.step_item.nnext{ background-position:0 0px; }
+.step_item.prev{ background-position: right -44px; }
+.reg_info_box{
+	padding-top:40px;
 }
-.steps_list>li>h4{
-	line-height: 44px;
-	font-weight: normal;
-	text-align: center;
-	color: #747474;
+.form_wrap{
+    float: left;
+    width: 700px;
+    border-right: 1px solid #e7e7eb;
 }
-.step_item{
-	background:transparent url(../images/step.png) 0 0 no-repeat;
+.reg_form{
+	    display: inline-block;
+    width: 75%;
+    text-align: left;
+    margin-left: 100px;
 }
-.step_item.current h4{
-	background-color: #44b549;
-	background-image:none;
-	color: #fff;
+.form_contral_group{
+	margin-bottom: 30px;
 }
-.step_item.next{
-	background-position:0 -88px; 
-}
-.step_item.nnext{
-	background-position:0 0px; 
+.form_tip_icon{
+	width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    display: inline-block;
+	background: url(../images/icon-info.png) 0 -1050px no-repeat;
 }
