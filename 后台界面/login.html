@@ -47,7 +47,7 @@
                         <div class="login_help_panel clearfix">
                             <label for="rember_user" class="checkbox_label">
                                 <i class="icon_check"></i> 记住帐号
-                                <input type="text" id="rember_user">
+                                <input type="text" id="rember_user" class="form_checkbox">
                             </label>
                             <a href="javascript:;" class="forget_pwd">无法登录？</a>
                         </div>
@@ -189,23 +189,4 @@
     </div>
 </body>
 <script src="js/sea.js"></script>
-<script>
-//配置模块
-seajs.config({
-    base: "./js/modules/",
-    alias: {
-        "jquery": "jquery-1.11.1.min.js",
-        'datatable': 'jquery.dataTables.min.js',
-        'index': 'index.js'
-    }
-});
-// 加载入口模块
-seajs.use('./js/modules/jquery-1.11.1.min.js', function() {
-    $('.checkbox_label').click(function(ev){
-    	$(this).toggleClass('selected');
-    	return false;
-    });
-});
-</script>
-
 </html>

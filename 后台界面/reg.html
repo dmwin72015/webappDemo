@@ -45,27 +45,66 @@
             </div>
             <div class="reg_info_box clearfix">
                 <div class="form_wrap">
-                    <form action="" class="reg_form">
-                        <p class="form_contral_group title_tips">
+                    <form action="" class="reg_form" id="reg_form">
+                        <div class="form_contral_group title_tips">
                             <i class="form_tip_icon"></i> 每个邮箱仅能申请一种帐号：公众号或企业号
-                        </p>
-                        <p class="form_contral_group title_tips">
-							<label for="" class="from_label">邮箱</label>
-							<span></span>	
-
-                        </p>
-                        <p class="form_contral_group title_tips">
+                        </div>
+                        <div class="form_contral_group title_tips">
                             <label for="" class="from_label">邮箱</label>
-							<span></span>
-                        </p>
-                        <p class="form_contral_group title_tips">
-                            <label for="" class="from_label">邮箱</label>
-							<span></span>
-                        </p>
-                        <p class="form_contral_group title_tips">
-                            <label for="" class="from_label">邮箱</label>
-							<span></span>
-                        </p>
+                            <div class="form_controls">
+                                <span class="form_input_box">
+                                    <input name="email" id="" type="text" placeholder="email" class="form_input">
+                                </span>
+                                <p class="form_msg fail ">请输入正确的邮箱</p>
+                                <p class="form_tips">
+                                    作为登录帐号，请填写未被微信公众平台注册，未被微信开放平台注册，未被个人微信号绑定的邮箱
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form_contral_group title_tips">
+                            <label for="" class="from_label">密码</label>
+                            <div class="form_controls">
+                                <span class="form_input_box">
+                                    <input name="email" id="" type="text" placeholder="email" class="form_input">
+                                </span>
+                                <p class="form_msg fail disN">请输入正确的密码</p>
+                                <p class="form_tips">
+                                    字母、数字或者英文符号，最短8位，区分大小写
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form_contral_group title_tips">
+                            <label for="" class="from_label">确认密码</label>
+                            <div class="form_controls">
+                                <span class="form_input_box">
+                                    <input name="email" id="" type="text" placeholder="email" class="form_input">
+                                </span>
+                                <p class="form_msg fail disN">请输入正确的邮箱</p>
+                                <p class="form_tips">
+                                    请再次输入密码
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form_contral_group title_tips">
+                            <label for="" class="from_label">验证码</label>
+                            <div class="form_controls">
+                                <span class="form_input_box">
+                                    <input name="email" id="" type="text" placeholder="email" class="form_input">
+                                </span>
+                                <div class="verifyimg_wrp">
+                                    <img src="https://mp.weixin.qq.com/cgi-bin/verifycode?r=1459047039938" alt="">
+                                    <a href="javascript:;">换一张</a>
+                                </div>
+                                <p class="form_msg fail disN">验证码错误</p>
+                                <div class="tool_area">
+                                    <label for="reg_form" class="frm_control_checkbox frm_checkbox_label">
+                                        <i class="icon_check"></i>
+                                        <input class="form_checkbox" id="js_agree" name="agree" type="checkbox" value=""> 我同意并遵守
+                                        <a href="" target="_blank">《微信公众平台服务协议》</a>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
                     </form>
                 </div>
                 <div class="form_tips"></div>
