@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta HTTP-EQUIV="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>首页-APP管理</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/sea.js"></script>
+</head>
+
+<body class="grey">
+    <div class="head">
+        <div class="head_box user clearfix">
+            <div class="inner">
+                <a href="javascript:;" class="logo">
+                    <img src="images/logo.jpg" alt="亿友会">
+                    <span>亿友会·公众平台</span>
+                </a>
+                <div class="account">
+                    <div class="user_logo">
+                        <a href="">
+                            <img src="images/logo.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="account_info">
+                        <p class="user_type">
+                            <a href="" class="user_icon service"></a>
+                            <a href="" class="user_icon verify"></a>
+                        </p>
+                        <p class="user_name">
+                            亿友会
+                            <span class="notices">
+                                1
+                                <span class="notices_left"></span>
+                            <span class="notices_right"></span>
+                            </span>
+                            <span class="login_out"><a href=""   id="login_out">退出</a></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="container_box cell_layout">
+            <!-- 左侧菜单 -->
+            <div class="col_side">
+                <div class="menu_box" id="menuBar">
+                    <dl class="menu first">
+                        <dt class="menu_title">
+                            <i class="icon_menu"></i>功能
+                        </dt>
+                        <dd>功能子菜单1</dd>
+                        <dd class="active">功能子菜单2</dd>
+                        <dd>功能子菜单3</dd>
+                        <dd>功能子菜单4</dd>
+                        <dd>功能子菜单5</dd>
+                        <dd class="menu_plugins">
+                            <a href="" id="add_plugin">
+                                添加功能插件
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl class="menu">
+                        <dt class="menu_title">
+                            <i class="icon_menu"></i>APP管理
+                        </dt>
+                        <dd>APP信息</dd>
+                        <dd class="selected">分账设置</dd>
+                        <dd>汇款信息</dd>
+                    </dl>
+                    <dl class="menu">
+                        <dt class="menu_title">
+                            <i class="icon_menu"></i>接口
+                        </dt>
+                        <dd>功能子菜单1</dd>
+                        <dd class="active">功能子菜单2</dd>
+                        <dd>功能子菜单3</dd>
+                        <dd>功能子菜单4</dd>
+                        <dd>功能子菜单5</dd>
+                    </dl>
+                </div>
+                <div class="faq">
+                    <ul class="links">
+                        <li class="links_item"><a href="" target="_blank">客服中心</a></li>
+                        <li class="links_item"><a href="" target="_blank">侵权投诉</a></li>
+                    </ul>
+                    <p class="tail">反馈官号wabcdefasdasdasd</p>
+                </div>
+            </div>
+            <!-- 左侧菜单end -->
+            <!-- 右侧内容 -->
+            <div class="col_main ">
+                <div class="main_head">
+                    <h3>APP管理</h3>
+                    <div class="title_tab" id="menu_son_tab">
+                        <ul>
+                            <li><a href="">APP信息</a></li>
+                            <li><a href="">分账设置</a></li>
+                            <li><a href="">用户属性</a></li>
+                        </ul>
+                        <p class="tab_line">
+                            <span id="bot_line" style="left:0px;width: 92px;"></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="main_body">
+                    <div class="main_body_tab ">
+                        <form action="" class="reg_form app_info" id="">
+                            <!-- <div class="form_contral_group ">
+                                <i class="form_tip_icon"></i> 分账方式
+                            </div> -->
+                            <div class="form_contral_group ">
+                                <label for="reg_form" class="checkbox_label">
+                                    APP名称
+                                    <input type="text" id="rember_user" class="form_checkbox">
+                                </label>
+                                <div class="form_controls">
+                                    <span class="form_input_box">
+                                        <input name="pay_by_user" id="" type="text" placeholder="请输入数字" class="form_input">
+                                    </span>
+                                    <p class="form_msg fail ">请输入正确的密码</p>
+                                    <p class="form_tips">
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="form_contral_group ">
+                                <label for="reg_form" class="checkbox_label">
+                                    APP标题
+                                    <input type="text" id="rember_user" class="form_checkbox">
+                                </label>
+                                <div class="form_controls">
+                                    <span class="form_input_box">
+                                        <input name="pay_by_money" id="" type="text" placeholder="请输入数字" class="form_input">
+                                    </span>
+                                    <p class="form_msg fail disN">请输入正确的密码</p>
+                                    <p class="form_tips">
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="form_contral_group ">
+                                <label for="reg_form" class="checkbox_label">
+                                    LOGO
+                                    <input type="text" id="rember_user" class="form_checkbox">
+                                </label>
+                                <div class="form_controls">
+                                    <span class="form_input_box">
+                                        <input name="pay_by_money" id="" type="text" placeholder="请输入数字" class="form_input">
+                                    </span>
+                                    <p class="form_msg fail disN">请输入正确的密码</p>
+                                    <p class="form_tips">
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="form_contral_group ">
+                                <label for="reg_form" class="checkbox_label">
+                                    下载地址
+                                    <input type="text" id="rember_user" class="form_checkbox">
+                                </label>
+                                <div class="form_controls">
+                                    <span class="form_input_box">
+                                        <input name="pay_by_money" id="" type="text" placeholder="请输入数字" class="form_input">
+                                    </span>
+                                    <p class="form_msg fail disN">请输入正确的密码</p>
+                                    <p class="form_tips">
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="form_contral_group ">
+                                <label for="reg_form" class="checkbox_label">
+                                    APP描述
+                                    <input type="text" id="rember_user" class="form_checkbox">
+                                </label>
+                                <div class="form_controls">
+                                    <span class="form_textarea_box">
+                                        <textarea class=""></textarea>
+                                    </span>
+                                    <p class="form_msg fail disN">请输入正确的密码</p>
+                                    <p class="form_tips">
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="form_contral_group ">
+                                <span class="btn btn_primary btn_input ">
+                                    <input type="button" value="保存" >
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="main_body_tab disN">
+                        <form action="" class="reg_form app_manage" id="">
+                            <div class="form_contral_group ">
+                                <i class="form_tip_icon"></i> 分账方式
+                            </div>
+                            <div class="form_contral_group ">
+                                <label for="reg_form" class="checkbox_label">
+                                    <i class="icon_check"></i>按注册用户付费
+                                    <input type="text" id="rember_user" class="form_checkbox">
+                                </label>
+                                <div class="form_controls">
+                                    <span class="form_input_box">
+                                        <input name="pay_by_user" id="" type="text" placeholder="请输入数字" class="form_input">
+                                    </span>
+                                    <p class="form_msg fail disN">请输入正确的密码</p>
+                                    <p class="form_tips">
+                                        输入每注册1个用户费用
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="form_contral_group ">
+                                <label for="reg_form" class="checkbox_label">
+                                    <i class="icon_check"></i>按交易额分成
+                                    <input type="text" id="rember_user" class="form_checkbox">
+                                </label>
+                                <div class="form_controls">
+                                    <span class="form_input_box">
+                                        <input name="pay_by_money" id="" type="text" placeholder="请输入数字" class="form_input">
+                                    </span>
+                                    <p class="form_msg fail disN">请输入正确的密码</p>
+                                    <p class="form_tips">
+                                        输入每笔交易额分成比例
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="form_contral_group ">
+                                <span class="btn btn_primary btn_input ">
+                                    <input type="button" value="保存" >
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="main_body_tab disN">
+                        <form action="" class="reg_form app_manage" id="">
+                            <div class="form_contral_group ">
+                                <i class="form_tip_icon"></i> 汇购方式
+                            </div>
+                            <div class="form_contral_group ">
+                                开户名称： 亿友会（北京）科技有限公司
+                            </div>
+                            <div class="form_contral_group ">
+                                开户银行：中国工商银行股份有限公司北京国展支行
+                            </div>
+                            <div class="form_contral_group ">
+                                开户账号： 0200253009000137770
+                            </div>
+                            <div class="form_contral_group ">
+                                <span class="btn btn_primary btn_input ">
+                                    <input type="button" value="提交" >
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="page_wrap disN">
+                    <span class="page_nav_area">
+                        <a href="javascript:void(0);" class="btn page_first" style="display: none;"></a>
+                        <a href="javascript:void(0);" class="btn page_prev"><i class="arrow"></i></a>
+                        <span class="page_num">
+                            <label>4</label>
+                            <span class="num_gap">/</span>
+                    <label>6</label>
+                    </span>
+                    <a href="javascript:void(0);" class="btn page_next"><i class="arrow"></i></a>
+                    <a href="javascript:void(0);" class="btn page_last" style="display: none;"></a>
+                    </span>
+                    <span class="goto_area">
+                        <input type="text">
+                        <a href="javascript:void(0);" class="btn page_go">跳转</a>
+                    </span>
+                </div>
+            </div>
+            <!-- 右侧内容end -->
+        </div>
+        <div class="faq"></div>
+    </div>
+    <div class="foot">
+        <ul class="link_list">
+            <li><a href="##">底部链接</a></li>
+            <li><a href="##">底部链接</a></li>
+            <li><a href="##">底部链接</a></li>
+            <li><a href="##">底部链接</a></li>
+            <li><a href="##">北京亿友会有限责任公司   京备 10003499 版本所有   Copyright © 2015-2016 . All Rights Reserved</a></li>
+        </ul>
+    </div>
+    <script>
+    //配置模块
+    // seajs.config({
+    //     base: "./js/modules/",
+    //     alias: {
+    //         'jquery': "jquery-1.11.1.min.js",
+    //         'datatable': 'jquery.dataTables.min.js',
+    //         'index': 'index.js'
+    //     }
+    // });
+    seajs.config({
+        // 别名配置
+        alias: {
+            'jquery': "tools/sea-jquery.1.11.1.js",
+            'datatable': 'modules/jquery.dataTables.min.js',
+            'index': 'modules/index.js'
+        },
+        //变量配置
+        vars: {
+            'locale': 'zh-cn'
+        },
+        // 提前加载并初始化好指定模块
+        preload: ['jquery']
+    });
+    seajs.use('index');
+    </script>
+</body>
+
+</html>
