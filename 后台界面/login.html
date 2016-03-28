@@ -189,4 +189,17 @@
     </div>
 </body>
 <script src="js/sea.js"></script>
+<script>
+//配置模块
+seajs.config({
+    base: "./js/modules/",
+    alias: {
+        'jquery': "jquery-1.11.1.min.js",
+        'datatable': 'jquery.dataTables.min.js',
+        'index': 'index.js'
+    }
+});
+seajs.use(['jquery','datatable','index']);
+</script>
+
 </html>
