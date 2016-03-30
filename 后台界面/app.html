@@ -20,14 +20,14 @@
                 </a>
                 <div class="account">
                     <div class="user_logo">
-                        <a href="">
+                        <a href="javascript:void(0);">
                             <img src="images/logo.jpg" alt="">
                         </a>
                     </div>
                     <div class="account_info">
                         <p class="user_type">
-                            <a href="" class="user_icon service"></a>
-                            <a href="" class="user_icon verify"></a>
+                            <a href="javascript:void(0);" class="user_icon service"></a>
+                            <a href="javascript:void(0);" class="user_icon verify"></a>
                         </p>
                         <p class="user_name">
                             亿友会
@@ -36,8 +36,33 @@
                                 <span class="notices_left"></span>
                             <span class="notices_right"></span>
                             </span>
-                            <span class="login_out"><a href=""   id="login_out">退出</a></span>
+                            <span class="login_out"><a href="javascript:void(0);"   id="login_out">退出</a></span>
                         </p>
+                        <div class="notices_detail_box" id="notices_detail_box">
+                            <ul class="notices_msg_list">
+                                <li>
+                                    <i class="icon_dot">●</i>
+                                    <a href="javascript:void(0);">
+                                        提示信息提示嘻嘻提示新
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="icon_dot">●</i>
+                                    <a href="javascript:void(0);">
+                                        提示信息提示嘻嘻提示新
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="icon_dot">●</i>
+                                    <a href="javascript:void(0);">
+                                        提示信息提示嘻嘻提示新
+                                    </a>
+                                </li>
+                            </ul>
+                            <i class="notices_msg_arrow out"></i>
+                            <i class="notices_msg_arrow in"></i>
+                            <i class="notices_msg_close" id="notices_msg_close"></i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -58,7 +83,7 @@
                         <dd>功能子菜单4</dd>
                         <dd>功能子菜单5</dd>
                         <dd class="menu_plugins">
-                            <a href="" id="add_plugin">
+                            <a href="javascript:void(0);" id="add_plugin">
                                 添加功能插件
                             </a>
                         </dd>
@@ -84,8 +109,8 @@
                 </div>
                 <div class="faq">
                     <ul class="links">
-                        <li class="links_item"><a href="" target="_blank">客服中心</a></li>
-                        <li class="links_item"><a href="" target="_blank">侵权投诉</a></li>
+                        <li class="links_item"><a href="javascript:void(0);" target="_blank">客服中心</a></li>
+                        <li class="links_item"><a href="javascript:void(0);" target="_blank">侵权投诉</a></li>
                     </ul>
                     <p class="tail">反馈官号wabcdefasdasdasd</p>
                 </div>
@@ -97,12 +122,12 @@
                     <h3>APP管理</h3>
                     <div class="title_tab" id="menu_son_tab">
                         <ul>
-                            <li><a href="">APP信息</a></li>
-                            <li><a href="">分账设置</a></li>
-                            <li><a href="">用户属性</a></li>
+                            <li class="current"><a href="javascript:void(0);">APP信息</a></li>
+                            <li><a href="javascript:void(0);">分账设置</a></li>
+                            <li><a href="javascript:void(0);">用户属性</a></li>
                         </ul>
                         <p class="tab_line">
-                            <span id="bot_line" style="left:0px;width: 92px;"></span>
+                            <span id="bot_line"></span>
                         </p>
                     </div>
                 </div>
@@ -285,30 +310,7 @@
         </ul>
     </div>
     <script>
-    //配置模块
-    // seajs.config({
-    //     base: "./js/modules/",
-    //     alias: {
-    //         'jquery': "jquery-1.11.1.min.js",
-    //         'datatable': 'jquery.dataTables.min.js',
-    //         'index': 'index.js'
-    //     }
-    // });
-    seajs.config({
-        // 别名配置
-        alias: {
-            'jquery': "tools/sea-jquery.1.11.1.js",
-            'datatable': 'modules/jquery.dataTables.min.js',
-            'index': 'modules/index.js'
-        },
-        //变量配置
-        vars: {
-            'locale': 'zh-cn'
-        },
-        // 提前加载并初始化好指定模块
-        preload: ['jquery']
-    });
-    seajs.use('index');
+        seajs.use('index')
     </script>
 </body>
 

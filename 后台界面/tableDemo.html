@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <title>table 插件</title>
+    <link rel="stylesheet" href="css/jquery.dataTables.css"/>
+    <script src="js/tools/jquery-1.11.1.min.js"></script>
+    <script src="js/tools/jquery.dataTables.min.js"></script>
+</head>
+<body>
+<table id="mytable" class="display" cellspacing="0" width="100%">
+    <thead>
+    <tr>
+        <th>注册用户</th>
+        <th>推广人</th>
+        <th>交易金额</th>
+        <th>时间</th>
+    </tr>
+    </thead>
+</table>
+</body>
+<script>
+    var data1 = [
+        {
+            "reg_user": "Tiger Nixon",
+            "promoter": "System",
+            "money": "$3,120",
+            "time": "2011/04/25"
+        },
+        {
+            "reg_user": "15899993333",
+            "promoter": "Tom",
+            "money": "$3,120",
+            "time": "2011/04/25"
+        }
+    ];
+    var data2 = [
+        [
+            "Tiger Nixon",
+            "System Architect",
+            "Edinburgh",
+            "5421",
+        ],
+        [
+            "Garrett Winters",
+            "Director",
+            "$5,300",
+            "2011/07/25",
+
+        ]
+    ];
+    $('#mytable').dataTable({
+        columns: [
+            {data: 'reg_user'},
+            {data: 'promoter'},
+            {data: 'money'},
+            {data: 'time'}
+        ],
+        data: data1
+    });
+</script>
+</html>
