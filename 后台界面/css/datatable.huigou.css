@@ -1,78 +1,31 @@
 @charset "UTF-8";
+
 /*改造datatable的样式*/
 table#mydataTable{border-bottom:1px solid #bbb}
-.detail_table_box .dataTables_wrapper{border:1px solid #bbb;padding-bottom: 5px;}
-.detail_table_box .onTableTop{
-    overflow: hidden;margin-bottom: 10px;border-bottom: 1px solid #eee;
-    line-height: 40px;
-    padding-left:5px;
-}
-.onTableTop .dataTables_filter label{
-    padding-left:0.3em;
-    border-width: 0 0 0 1px;
-    border-color:#eee;
-    border-style: solid;
-    display: block;
-}
-.onTableTop .dataTables_filter input{
-    width:230px;
-    font-size: 16px;
-    padding:8px 3px;
-}
-#mydataTable .table_row>th{border-color: #bbb}
+.detail_table_box .dataTables_wrapper{border:1px solid #bbb;padding-bottom:5px;}
+.detail_table_box .onTableTop{overflow:hidden;margin-bottom:10px;border-bottom:1px solid #eee;line-height:40px;padding-left:5px;}
+.onTableTop .dataTables_filter label{padding-left:0.3em;border-width:0 0 0 1px;border-color:#eee;border-style:solid;display:block;}
+.onTableTop .dataTables_filter input{width:230px;font-size:16px;padding:8px 3px;}
+#mydataTable .table_row>th{border-color:#bbb}
 
 /*自定义的内容*/
 .afterTableBot{}
-.afterTableBot .dataTables_info{clear: none;padding-left:1em;}
+.afterTableBot .dataTables_info{clear:none;padding-left:1em;}
 
 /*改变翻页按钮的样式*/
-.detail_table_box .dataTables_paginate.paging_simple_numbers{
+.detail_table_box .dataTables_paginate.paging_simple_numbers{}
+.detail_table_box .dataTables_wrapper .dataTables_paginate{padding-top:0.5em;}
 
-}
-.detail_table_box .dataTables_wrapper .dataTables_paginate{
-    padding-top: 0.5em;
-}
 /*分页数字按钮*/
-.detail_table_box .dataTables_wrapper .dataTables_paginate .paginate_button{
-    background: #efefef;
-    color: #333 !important;
-    border:1px solid #e6e7ec;
-    padding:5px 10px;
-}
-.detail_table_box .dataTables_wrapper .dataTables_paginate .paginate_button{
-    background: #fff;
-}
-.detail_table_box .dataTables_wrapper .dataTables_paginate .paginate_button.current{
-    background: #efefef;
-}
-.detail_table_box .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
-    border:1px solid #e6e7ec;
-    background: #efefef;
-}
-.detail_table_box .dataTables_wrapper .dataTables_paginate .paginate_button:hover{
-    background: #e0e0e0;
-}
+.detail_table_box .dataTables_wrapper .dataTables_paginate .paginate_button{background:#efefef;color:#333!important;border:1px solid #e6e7ec;padding:5px 10px;}
+.detail_table_box .dataTables_wrapper .dataTables_paginate .paginate_button{background:#fff;}
+.detail_table_box .dataTables_wrapper .dataTables_paginate .paginate_button.current{background:#efefef;}
+.detail_table_box .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{border:1px solid #e6e7ec;background:#efefef;}
+.detail_table_box .dataTables_wrapper .dataTables_paginate .paginate_button:hover{background:#e0e0e0;}
+
 /*分页 上一页、下一页按钮*/
-.detail_table_box .dataTables_wrapper .dataTables_paginate .paginate_button.previous,
-.detail_table_box .dataTables_wrapper .dataTables_paginate .paginate_button.next{
-    border:1px solid #e6e7ec;
-    padding:5px 10px;
-}
-.detail_table_box .dataTables_wrapper .dataTables_paginate .paginate_button.previous:hover,
-.detail_table_box .dataTables_wrapper .dataTables_paginate .paginate_button.next:hover{
-    border:1px solid #e6e7ec;
-    cursor: pointer;
-    background:#eFeFeF;
-    color: #333 !important;
-}
-.detail_table_box .dataTables_wrapper .dataTables_paginate .paginate_button.disabled.previous:hover,
-.detail_table_box .dataTables_wrapper .dataTables_paginate .paginate_button.disabled.next:hover{
-    border:1px solid #e6e7ec;
-    padding:5px 10px;
-    background: #fff;
-}
-.detail_table_box .dataTables_wrapper  .paginate_button.next{
-    margin-right: 0.5em;
-}
-.detail_table_box .dataTables_wrapper  .paginate_button.next:hover{
-}
+.detail_table_box .dataTables_wrapper .dataTables_paginate .paginate_button.previous,.detail_table_box .dataTables_wrapper .dataTables_paginate .paginate_button.next{border:1px solid #e6e7ec;padding:5px 10px;}
+.detail_table_box .dataTables_wrapper .dataTables_paginate .paginate_button.previous:hover,.detail_table_box .dataTables_wrapper .dataTables_paginate .paginate_button.next:hover{border:1px solid #e6e7ec;cursor:pointer;background:#eFeFeF;color:#333!important;}
+.detail_table_box .dataTables_wrapper .dataTables_paginate .paginate_button.disabled.previous:hover,.detail_table_box .dataTables_wrapper .dataTables_paginate .paginate_button.disabled.next:hover{border:1px solid #e6e7ec;padding:5px 10px;background:#fff;}
+.detail_table_box .dataTables_wrapper  .paginate_button.next{margin-right:0.5em;}
+.detail_table_box .dataTables_wrapper  .paginate_button.next:hover{}
