@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>我的课程</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/myclass.css">
+    <script src="js/zepto.fastclick.min.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <section class="item">
+            <h3>第6期 上海 超级说服力</h3>
+            <ul>
+                <li>
+                    <p><span class="name">时间：</span></p>
+                    <p>
+                        <span id="time">2016/04/06 - 2016/04/20</span>
+                    </p>
+                </li>
+                <li>
+                    <p><span class="">地点：</span></p>
+                    <p>
+                        <span id="address">上海见过么外大街</span>
+                        <span id="detail" class="detail">北京市朝阳区建国门外大街一号（国贸 中心）A座二层会议中心</span>
+                    </p>
+                </li>
+            </ul>
+            <div class="btn_group">
+                <a class="ask">咨询</a>
+                <a class="edit">修改</a>
+                <a class="map">地图</a>
+                <a class="pay">去支付</a>
+            </div>
+            <span class="delete"></span>
+        </section>
+        <section class="item">
+            <h3>第6期 上海 超级说服力</h3>
+            <ul>
+                <li>
+                    <p><span class="name">时间：</span></p>
+                    <p>
+                        <span id="time">2016/04/06 - 2016/04/20</span>
+                    </p>
+                </li>
+                <li>
+                    <p><span class="">地点：</span></p>
+                    <p>
+                        <span id="address">上海见过么外大街</span>
+                        <span id="detail" class="detail">北京市朝阳区建国门外大街一号（国贸 中心）A座二层会议中心</span>
+                    </p>
+                </li>
+            </ul>
+            <div class="btn_group payed">
+                <a class="ask">咨询</a>
+                <a class="edit">修改</a>
+                <a class="map">地图</a>
+                <a class="pay">已支付</a>
+            </div>
+            <span class="delete"></span>
+        </section>
+        <section class="item">
+            <h3>第6期 上海 超级说服力</h3>
+            <ul>
+                <li>
+                    <p><span class="name">时间：</span></p>
+                    <p>
+                        <span id="time">2016/04/06 - 2016/04/20</span>
+                    </p>
+                </li>
+                <li>
+                    <p><span class="">地点：</span></p>
+                    <p>
+                        <span id="address">上海见过么外大街</span>
+                        <span id="detail" class="detail">北京市朝阳区建国门外大街一号（国贸 中心）A座二层会议中心</span>
+                    </p>
+                </li>
+            </ul>
+            <div class="btn_group cans">
+                <a class="ask">咨询</a>
+                <a class="edit">修改</a>
+                <a class="map">地图</a>
+                <a class="pay">已取消</a>
+            </div>
+            <span class="delete"></span
+        </section>
+    </div>
+</body>
+<script>
+! function(e, t) {
+    var mresize = function() {
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+        var n = Math.min(750, view_width);
+        return n ? void(t.documentElement.style.fontSize = n / 16 + "px") : !1;
+    };
+    mresize();
+    e.addEventListener("resize", mresize, !1);
+    e.addEventListener("DOMContentLoaded", mresize, !1);
+    e.addEventListener("load", mresize, !1);
+}(window, document);
+</script>
+
+</html>

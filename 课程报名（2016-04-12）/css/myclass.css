@@ -1,0 +1,27 @@
+@charset "utf-8";
+body{background-color:#efeff4;}
+
+/*有课程*/
+.item{background-color:#fff;padding:10px;position:relative;}
+.item+.item{margin-top:10px;}
+.item>h3{font-size:0.7rem;color:#333;font-weight:700;margin-bottom:15px;}
+.item li{margin-bottom:6px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;align-items:flex-start;}
+.item li p{color:#666;font-size:0.7rem;}
+.item li p:first-child{width:2.4rem;}
+.item li p:last-child{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;padding-right:20px;}
+.item li p:last-child span{display:block;}
+span.detail{color:#999;}
+.btn_group{overflow:hidden;}
+.btn_group>a{float:left;border:1px solid #0099ff;padding:3px 12px;border-radius:5px;margin-right:10px;color:#0099ff;}
+.btn_group>a.pay{float:right;background-color:#0099ff;color:#fff;font-weight:700;margin-right: 0;}
+.btn_group.cans>a.ask,.btn_group.cans>a.edit{border-color:#999;color:#999;}
+.btn_group.cans>a.pay{color:#999;border-color:#fff;background-color:#fff;}
+.btn_group.payed>a.pay{border-color:#fff;background-color:#fff;color:#cc2a1e;}
+.delete{position:absolute;top:10px;right:10px;width:0.746rem;height:0.746rem;background:url('../images/del.png') 0 0 no-repeat;background-size:100%;}
+
+/*无课程*/
+.warn_info{position:relative;margin-top:50%;transform:translateY(-50%);padding-top:1px;}
+.warn_info>img{display:block;width:3.498rem;height:3.498rem;margin:10px auto;}
+.warn_text{text-align:center;font-size:0.7rem;margin-bottom:2.13rem;}
+.warn_info a.btn{display:block;width:80%;margin:0 auto;padding:0.225rem 0;font-size:0.7rem;border-radius:5px;}
+.btn.btn_red{background-color:#cc0000;color:#fff;text-align:center;}

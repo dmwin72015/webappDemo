@@ -1,0 +1,43 @@
+.ft_red{ color:#cc0000; }
+.hide{ display:none}
+body{ background-color:#efeff4; }
+.wrap{ width:100%; margin-left:auto; margin-right:auto; background-color:#efeff4; min-height:100%; padding-bottom:10px; }
+.title{ padding:0.126rem 0.469rem; font-size:0.8rem; color:#333; font-weight:bold; line-height:1.28rem; }
+.info_box{ background-color:#fff; }
+.info_list>li{ padding:0.226rem 0.469rem; display:-webkit-box; display:-webkit-flex; display:-ms-flexbox; display:flex; overflow:hidden; }
+.info_list>li+li{ border-top:1px solid #efeff4; }
+.info_list>li span{ font-size:0.8rem; display:block; vertical-align:middle; float:left; }
+.info_list>li span.item_name{ width:3.6rem; padding-right:0.5rem; text-align:right; color:#333; }
+.info_list>li span.item_input{ padding-left:0.5rem; position:relative; -webkit-box-flex:1; -webkit-flex:1; -ms-flex:1; flex:1; }
+.item_input>input{ width:100%; }
+.item_input>select{ border:none; background-color:transparent; }
+.sex_icon{ display:inline-block; margin-right:0.5rem; }
+.sex_icon > i{ display:inline-block; width:0.725rem; height:0.725rem; background:url(../images/sex01.png) 0 0 no-repeat; background-size:100%; margin-right:0.1rem; vertical-align:middle; }
+.sex_icon.selected >i{ background:url(../images/sex02.png) 0 0 no-repeat; background-size:100%; }
+.arrow{ position:absolute; width:0.725rem; height:0.725rem; top:50%; transform:translateY(-50%); right:0.2rem; background:url(../images/arrow.png) 0 0 no-repeat; background-size:100%; }
+.sub_btn{ display:block; width:80%; font-size:0.85rem; padding:0.426rem 0; margin:1.7rem auto; background-color:#cc0000; text-align:center; border-radius:5px; color:#fff; }
+.filter{ position:fixed; left:0; top:0; right:0; bottom:0; background:rgba(0,0,0,0.4); }
+
+/*选择课程*/
+.course_wrap{ position:fixed; width:100%; top:0; left:0; transition:all linear 0.24s; background-color:#fff; transform: translateX(100%); }
+.course_wrap.show{ transform:translateX(0); }
+.course_wrap .inner{ padding:5px; background-color:#efeff4; }
+.course_list>li{ display:-webkit-box; display:-webkit-flex; display:-ms-flexbox; display:flex; align-items:center; background-color:#fff; border-radius:5px; }
+.course_list>li+li{ margin-top:10px; }
+.sel_icon_box{ padding-right:8px; padding-left:8px; }
+.sel_icon_box span{ display:block; width:0.725rem; height:0.725rem; background:url(../images/sex01.png) 0 0 no-repeat; background-size:100%; }
+li.selected .sel_icon_box span{ background:url(../images/sex02.png) 0 0 no-repeat; background-size:100%; }
+.sel_info_box{ padding:6px; position:relative; -webkit-box-flex:1; -webkit-flex:1; -ms-flex:1; flex:1; }
+.sel_info_box+.info_box{ margin-top:10px; }
+.sel_info_box>h3{ font-size:0.7rem; color:#333; font-weight:700; margin-bottom:8px; }
+.sel_info_box li{ margin-bottom:3px; display:-webkit-box; display:-webkit-flex; display:-ms-flexbox; display:flex; align-items:flex-start; }
+.sel_info_box li p{ color:#666; font-size:0.7rem; }
+.sel_info_box li p:first-child{ width:2.4rem; }
+.sel_info_box li p:last-child{ -webkit-box-flex:1; -webkit-flex:1; -ms-flex:1; flex:1; }
+.sel_info_box li p:last-child span{ display:block; }
+span.address{ color:#999}
+.btn_group{ margin-top: 10px; background-color: #fff; padding: 10px 0; text-align: center; }
+.btn{ font-size: 0.7rem; padding:5px 15px; border:1px solid #eee; border-radius: 5px; }
+.btn.btn_no{ margin-right: 30px; }
+.btn.btn_yes{ background-color: #03bc01; border-color: #03bc01; color: #fff; }
+.tips_msg{ position: fixed; border-radius:5px;top:50%; left:50%; transform: translate(-50%,-100%); padding:10px 20px; font-size: 16px; color: #fff; background-color: rgba(0,0,0,0.7); }

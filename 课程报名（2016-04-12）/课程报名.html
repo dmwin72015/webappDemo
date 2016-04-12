@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>修改课程</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/mobiscroll.css">
+    <link rel="stylesheet" href="css/mobiscroll_date.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/mobiscroll_date.js"></script>
+    <script src="js/mobiscroll.js"></script>
+    <script src="js/index.js"></script>
+    <style>
+    .android-ics .dw .dwwol {
+        border-top: 2px solid #767679;
+        border-bottom: 2px solid #767679;
+    }
+    
+    .android-ics .dwv {
+        color: #2B2B2B;
+        border-bottom: 2px solid #767679;
+    }
+    
+    .android-ics.light .dww .dw-li.dw-sel {
+        font-weight: bold;
+    }
+    
+    .android-ics .dw {
+        color: #767679;
+    }
+    
+    .android-ics .dw .dwwol {
+        width: 105%;
+        left: 0;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <form action="">
+            <section class="item_info">
+                <h3 class="title">参课人信息</h3>
+                <div class="info_box">
+                    <ul class="info_list">
+                        <li>
+                            <span class="item_name">姓名</span>
+                            <span class="item_input">
+                                <input type="text" placeholder="请输入姓名">
+                            </span>
+                        </li>
+                        <li>
+                            <span class="item_name">手机号</span>
+                            <span class="item_input">
+                                <input type="text" placeholder="请输入手机号">
+                            </span>
+                        </li>
+                        <li>
+                            <span class="item_name">性别</span>
+                            <span class="item_input">
+                                <span class="sex_icon selected">
+                                    <i></i>
+                                    男   
+                                </span>
+                            <span class="sex_icon">
+                                    <i></i>
+                                    女
+                                </span>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="item_name">生日</span>
+                            <span class="item_input">
+                                <input type="text" value="请选择生日" id="birthday">
+                                <i class="arrow"></i>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="item_name">所在地</span>
+                            <span class="item_input">
+                                请选择
+                            <i class="arrow"></i>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="item_info">
+                <h3 class="title">课程信息</h3>
+                <div class="info_box">
+                    <ul class="info_list">
+                        <li>
+                            <span class="item_name">课程名称</span>
+                            <span class="item_input">
+                                超级说服力
+                            </span>
+                        </li>
+                        <li>
+                            <span class="item_name">选择课程</span>
+                            <span class="item_input" id="select_course">
+                                选择地点和时间
+                                <i class="arrow"></i>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="item_info">
+                <h3 class="title">支付信息</h3>
+                <div class="info_box">
+                    <ul class="info_list">
+                        <li>
+                            <span class="item_name">课程金额</span>
+                            <span class="item_input ft_red">
+                                已支付
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="item_info">
+                <span class="sub_btn">提交修改</span>
+            </section>
+        </form>
+    </div>
+    <div class="filter hide"></div>
+    <div class="course_wrap " id="course">
+        <div class="inner">
+            <ul class="course_list">
+                <li class="selected">
+                    <section class="sel_icon_box">
+                        <span></span>
+                    </section>
+                    <section class="sel_info_box">
+                        <h3>第6期 北京 超级说服力</h3>
+                        <ul>
+                            <li>
+                                <p><span class="name">时间：</span></p>
+                                <p>
+                                    <span id="time">2016/04/06 - 04/20</span>
+                                </p>
+                            </li>
+                            <li>
+                                <p><span class="">地点：</span></p>
+                                <p>
+                                    <span id="address" class="address">北京市朝阳区建国门外大街一号（国贸 中心）A座二层会议中心 副本</span>
+                                </p>
+                            </li>
+                        </ul>
+                    </section>
+                </li>
+                <li class="">
+                    <section class="sel_icon_box">
+                        <span></span>
+                    </section>
+                    <section class="sel_info_box">
+                        <h3>第6期 北京 超级说服力</h3>
+                        <ul>
+                            <li>
+                                <p><span class="name">时间：</span></p>
+                                <p>
+                                    <span id="time">2016/04/06 - 04/20</span>
+                                </p>
+                            </li>
+                            <li>
+                                <p><span class="">地点：</span></p>
+                                <p>
+                                    <span id="address" class="address">北京市朝阳区建国门外大街一号（国贸 中心）A座二层会议中心 副本</span>
+                                </p>
+                            </li>
+                        </ul>
+                    </section>
+                </li>
+                <li class="">
+                    <section class="sel_icon_box">
+                        <span></span>
+                    </section>
+                    <section class="sel_info_box">
+                        <h3>第6期 北京 超级说服力</h3>
+                        <ul>
+                            <li>
+                                <p><span class="name">时间：</span></p>
+                                <p>
+                                    <span id="time">2016/04/06 - 04/20</span>
+                                </p>
+                            </li>
+                            <li>
+                                <p><span class="">地点：</span></p>
+                                <p>
+                                    <span id="address" class="address">北京市朝阳区建国门外大街一号（国贸 中心）A座二层会议中心 副本</span>
+                                </p>
+                            </li>
+                        </ul>
+                    </section>
+                </li>
+            </ul>
+            <div class="btn_group">
+                <span class="btn btn_no" id="btn_no">取消</span>
+                <span class="btn btn_yes" id="btn_yes">确定</span>
+            </div>
+        </div>
+    </div>
+    <div class="tips_msg hide">修改成功</div>
+</body>
+<script>
+$(function(argument) {
+    $('#select_course').click(function() {
+        $('.filter').removeClass('hide');
+        $('#course').addClass('show');
+    });
+    $('.course_list>li').on('click', function(ev) {
+        $(this).addClass('selected').siblings().removeClass('selected');
+        return false;
+    });
+    $('#btn_yes').on('click', function() {
+        $('.filter').addClass('hide');
+        $('#course').removeClass('show');
+    });
+})
+</script>
+
+</html>

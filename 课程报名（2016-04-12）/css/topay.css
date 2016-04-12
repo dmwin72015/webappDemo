@@ -1,0 +1,23 @@
+body{background-color:#efeff4;}
+.flex_box{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+
+/*支付*/
+.font_red{color:red;}
+.wrap.topay >h3{font-size:0.65rem;font-weight:700;padding:6px;}
+.pay_type{background-color:#fff;}
+.pay_type li{position:relative;}
+.pay_type li+li{border-top:1px solid #eee;}
+.pay_type li a{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;align-items:center;padding:0.225rem;}
+.pay_type li img{width:1.024rem;height:1.024rem;margin-right:12px;}
+.pay_type li span{font-size:0.7rem;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;}
+.pay_type li i{position:absolute;width:0.7rem;height:0.7rem;top:50%;right:6px;background:url('../images/arrow.png') 0 0 no-repeat;background-size:100%;transform:translateY(-50%);}
+
+/*收益列表*/
+.earn_list li{margin-top:12px;background-color:#fff;padding:0.225rem 0;}
+.earn_list li section{display:-webkit-flex;display:-ms-flexbox;display:flex;align-items:center;padding-left:0.26rem;padding-right:0.26rem;}
+.earn_list li section+section{border-top:1px solid #efeff4;}
+.item_name_time{-webkit-box-flex:60%;-webkit-flex:60%;-ms-flex:60%;flex:60%;}
+.item_name_time p,.item_money p{font-size:0.65rem;padding:0.1rem 3px;color:#999;}
+.item_money p{color:#03bc01;}
+.item_name_time p:first-child{color:#333;font-weight:700;}
+.person_name{color: #00afff}
